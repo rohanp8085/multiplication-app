@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif */
+    font-family: 'Tilt Warp', cursive;
+}
+.container{
+    height: 100vh;
+    background-image: url(./images/blob-scene-haikei.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    position: relative;
+}
+.navbar{
+    /* width: 300px; */
+    position: absolute;
+    /* background-color: red; */
+    left: 30px;
+    top: 20px;
+    
+}
+form{height: 300px;
+    width: 500px;
+    border-radius: 10px 150px 10px 150px;
+    background-color: rgb(236, 166, 61);
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+input{
+    background-color: black;
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    color:rgb(242, 189, 111) ;
+    padding: 30px;
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+button{
+    background-color: black;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    color:rgb(242, 189, 111) ;
+    font-size: 20px;
+    font-weight: 700;
+}
+@media(max-width:768px){
+    .container{
+        width: 100%;
+        padding: 10px;
+    }
+    form{
+        width: 100%;
+        
+    }
+   h1{
+    width: 100%;
+   }
+   input{
+    width: 100%;
+   }
+}
